@@ -1,0 +1,6 @@
+def reverse_integer(n):
+    if n < 0:
+        reversed_int = int("-" + str(n)[:0:-1])
+    else:
+        reversed_int = int(str(n)[::-1])
+    return reversed_int
